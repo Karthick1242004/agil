@@ -1,21 +1,21 @@
-import logo1 from './components/image/heart-rate-monitor_3703527.png';
-import logo2 from './components/image/brainstorm_1786985.png';
-import logo3 from './components/image/stomach_9056025.png';
-import logo4 from './components/image/orthopedics_6177173.png';
-import logo5 from './components/image/black-ribbon_6056687.png';
-import logo6 from './components/image/embryo_819056.png';
-import logo7 from './components/image/lungs_1834916.png';
-import logo8 from './components/image/pediatric.png';
+// import logo1 from './components/image/heart-rate-monitor_3703527.png';
+// import logo2 from './components/image/brainstorm_1786985.png';
+// import logo3 from './components/image/stomach_9056025.png';
+// import logo4 from './components/image/orthopedics_6177173.png';
+// import logo5 from './components/image/black-ribbon_6056687.png';
+// import logo6 from './components/image/embryo_819056.png';
+// import logo7 from './components/image/lungs_1834916.png';
+// import logo8 from './components/image/pediatric.png';
 import logo9 from './components/image/services_5346638.png';
 import logo10 from './components/image/blueprint_2704934.png';
-import logo11 from './components/image/hos.jpg';
+import logo11 from './components/image/mainimg.png';
+// import logo11 from './components/image/hos.jpg';
 import './App.css';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Nav from './components/Nav';
 import Appointment from './components/Appointment';
 import Special from './components/Special';
 import Footer from './components/Footer';
-
 
 
 function Home() {
@@ -25,7 +25,10 @@ function Home() {
       <div className="aim">
         <h1>The <span>AIIMS</span> World of <span>Care</span></h1>
         <p>Welcome to AIIMS Hospital, a world-renowned medical institution committed to excellence in healthcare. With state-of-the-art facilities and a dedicated team of experts, we provide cutting-edge medical services, education, and research. Your well-being is our priority, and we strive to deliver compassionate and personalized care to every patient. Experience the pinnacle of medical expertise at AIIMS Hospital, where innovation meets compassion. Your journey to better health starts here.</p>
-        <Link to="/Adminlogin" className="btn2" >View Health Records</Link>
+        <Link to="/" className="btn2" >View Health Records</Link>
+      </div>
+      <div className='mnimg1'>
+        <img src={logo11} className='mnimg11'/>
       </div>
       <p className="bot">+Learn about the world class healthcare we provide</p>
       <Appointment/>

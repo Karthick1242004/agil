@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Adminlogin from '../Adminlogin';
 import {Link } from 'react-router-dom';
 export default class Nav extends Component {
   render() {
@@ -9,7 +9,7 @@ export default class Nav extends Component {
         <ul>Hospitals</ul>
         <ul>Privacy Policy</ul>
         <ul>Contact Us</ul>
-        <ul><button to="/doccat" className="btn1">Admin Login</button></ul>
+        <ul><Link to="/Adminlogin" className="btn1">Admin Login</Link></ul>
       </nav>
       <div className="logo">
         <h1>AIIMS<span> Dashboard.</span></h1>

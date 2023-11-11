@@ -30,12 +30,12 @@ export default class Footer extends Component {
         <h1>Company</h1>
         <p>About Us</p>
         <p>Features</p>
-        <p>Watch Videos</p>
+        <p>Our Policy</p>
         <p>Contact Us</p>
       </div>
       <div className='pol'>
         <h1>Our Policies</h1>
-        <p>Provacy Policy</p>
+        <p>Privacy Policy</p>
         <p>Terms Of users</p>
         <p>Cookies Polices</p>
         <p>GDPR Policies</p>
@@ -53,7 +53,7 @@ export default class Footer extends Component {
       </div>
       <div className='sub'>
         <input name="name" className='inp' placeholder='Enter your name'></input>
-        <button type='submit' className='bbt'>Join</button>
+        <button type='submit' className='bbt'>Submit</button>
       </div>
       </div>
     )
